@@ -286,7 +286,7 @@ if (error) return <Alert severity="error">{error.message}</Alert>;
 if (value && value.repositories) return <DenseTable viewer={value} />;
 ```
 6. The third line here utilizes our custom table accepting our Viewer type.
-7. Finally, we add our else return to catch any other scenarios.
+7. Finally, we add our _else return_ block to catch any other scenarios.
 ```tsx
 return (
     <Table
@@ -297,7 +297,7 @@ return (
     />
   );
 ```
-8. After saving that, and give we don't have any errors, you should see a table with basic information on your repositories.
+8. After saving that, and given we don't have any errors, you should see a table with basic information on your repositories.
 9. Here is the entire file for reference
 <details><summary>Complete ExampleFetchComponent.tsx</summary>
   <p>

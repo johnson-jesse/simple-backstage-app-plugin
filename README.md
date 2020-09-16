@@ -29,7 +29,7 @@
 1. Enter a plugin ID. I used `github-playground`
 1. When the process finishes, let's start the backend: `yarn --cwd packages/backend start`
 1. If you see errors starting, refer to [Auth Configuration](https://github.com/johnson-jesse/simple-backstage-app/blob/master/README.md#the-auth-configuration) for more information on environment variables.
-1. And the frontend, from a new terminal window: `yarn start`
+1. And now the frontend, from a new terminal window and the root of your project: `yarn start`
 1. As usual, a browser window should popup loading the App.
 1. Now manually navigate to our plugin page from your browser: `http://localhost:3000/github-playground`
 1. You should see successful verbiage for this endpoint, `Welcome to github-playground!`

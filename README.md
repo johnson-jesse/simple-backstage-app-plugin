@@ -279,7 +279,7 @@ const { value, loading, error } = useAsync(async (): Promise<any> => {
   }, []);
 ```
 4. The resolved data is conventiently destructured with value containing our Viewer type. loading as a boolean, self explainatory. And error which is present only if necessary. So let's use those as the first 3 of 4 multi return statements.
-5. Add the if return blocks below our async block
+5. Add the _if return_ blocks below our async block
 ```tsx
 if (loading) return <Progress />;
 if (error) return <Alert severity="error">{error.message}</Alert>;

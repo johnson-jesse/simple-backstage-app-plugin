@@ -6,6 +6,7 @@ import ExploreIcon from '@material-ui/icons/Explore';
 import BuildIcon from '@material-ui/icons/BuildRounded';
 import RuleIcon from '@material-ui/icons/AssignmentTurnedIn';
 import MapIcon from '@material-ui/icons/MyLocation';
+import GitHubIcon from '@material-ui/icons/GitHub';
 
 import {
   Sidebar,
@@ -30,6 +31,7 @@ export const AppSidebar = () => (
     <SidebarItem icon={MapIcon} to="tech-radar" text="Tech Radar" />
     <SidebarItem icon={RuleIcon} to="lighthouse" text="Lighthouse" />
     <SidebarItem icon={BuildIcon} to="circleci" text="CircleCI" />
+    <SidebarItem icon={GitHubIcon} to="github-playground" text="GitHub Repository" />
     {/* End global nav */}
     <SidebarDivider />
     <SidebarSpace />

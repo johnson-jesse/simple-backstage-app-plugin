@@ -178,7 +178,7 @@ const ExampleFetchComponent: FC<{}> = () => {
 
 export default ExampleFetchComponent;
 ```
-3. Save that and ensure you see no errors.
+3. Save that and ensure you see no errors. Comment out the unused imports if your linter gets in the way.
 
 ###### We will add a lot to this file for the sake of ease. Please don't do this in productional code!
 

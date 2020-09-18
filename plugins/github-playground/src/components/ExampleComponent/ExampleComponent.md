@@ -10,7 +10,7 @@ import {
   ContentHeader,
   HeaderLabel,
   SupportButton,
-  identityApiRef,
+  identityApiRef
 } from '@backstage/core';
 import { useApi } from '@backstage/core-api';
 import ExampleFetchComponent from '../ExampleFetchComponent';
@@ -22,10 +22,7 @@ const ExampleComponent: FC<{}> = () => {
 
   return (
     <Page theme={pageTheme.tool}>
-      <Header
-        title="Welcome to github-playground!"
-        subtitle="Optional subtitle"
-      >
+      <Header title="Welcome to github-playground!" subtitle="Optional subtitle">
         <HeaderLabel label="Owner" value="Team X" />
         <HeaderLabel label="Lifecycle" value="Alpha" />
       </Header>

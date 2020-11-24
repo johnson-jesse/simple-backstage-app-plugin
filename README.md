@@ -413,7 +413,7 @@ export default ExampleFetchComponent;
   </p>
   </details>
 
-10. We finished! If there are no errors, you should see your own GitHub repoistory information displayed in a basic table. If you run into issues, you can compare the repo that backs this documdnt, [simple-backstage-app-plugin](https://github.com/johnson-jesse/simple-backstage-app-plugin)
+10. We finished! If there are no errors, you should see your own GitHub repoistory information displayed in a basic table. If you run into issues, you can compare the repo that backs this document, [simple-backstage-app-plugin](https://github.com/johnson-jesse/simple-backstage-app-plugin)
 
 # Where to go from here
 

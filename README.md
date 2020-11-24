@@ -91,7 +91,7 @@ const profile = identityApi.getProfile();
 </InfoCard>
 ```
 
-If everything is saved, you should see your name, id, and email on the github-playground page. Our data accessed is synchronous. So we just grab and go.
+If everything is saved, you should see your name, id, and email on the github-playground page. Our data access is synchronous. So we just grab and go.
 
 6. Here is the entire file for reference
 <details><summary>Complete ExampleComponent.tsx</summary>

@@ -91,7 +91,7 @@ const profile = identityApi.getProfile();
 </InfoCard>
 ```
 
-If everything is saved, you should see your name, id, and email on the github-playground page. Our data accessed is synchronous. So we just grab and go.
+If everything is saved, you should see your name, id, and email on the github-playground page. Our data access is synchronous. So we just grab and go.
 
 6. Here is the entire file for reference
 <details><summary>Complete ExampleComponent.tsx</summary>
@@ -413,7 +413,7 @@ export default ExampleFetchComponent;
   </p>
   </details>
 
-10. We finished! If there are no errors, you should see your own GitHub repoistory information displayed in a basic table. If you run into issues, you can compare the repo that backs this documdnt, [simple-backstage-app-plugin](https://github.com/johnson-jesse/simple-backstage-app-plugin)
+10. We finished! If there are no errors, you should see your own GitHub repoistory information displayed in a basic table. If you run into issues, you can compare the repo that backs this document, [simple-backstage-app-plugin](https://github.com/johnson-jesse/simple-backstage-app-plugin)
 
 # Where to go from here
 
